@@ -27,8 +27,8 @@
 1. **Clone Repository**
 
 ```bash
-git clone https://github.com/ahmad-fahrudin/e-commerce-tes-konnco-studio.git
-cd e-commerce-tes-konnco-studio
+git clone https://github.com/ahmad-fahrudin/e-commerce-tes.git
+cd e-commerce-tes
 composer install
 cp .env.example .env
 ```
