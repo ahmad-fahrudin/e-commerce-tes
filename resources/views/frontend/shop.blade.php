@@ -32,9 +32,15 @@
                                         </div>
                                         <div class="card-badge">
                                             <div class="card-badge-container left">
-                                                <span class="badge badge-warning">
-                                                    Stock {{ $item->stock }}
-                                                </span>
+                                                @if ($item->stock > 0)
+                                                    <span class="badge badge-danger">
+                                                        Stock {{ $item->stock }}
+                                                    </span>
+                                                @else
+                                                    <span class="badge badge-dark">
+                                                        Tunggu restock
+                                                    </span>
+                                                @endif
                                             </div>
                                             <img src="{{ asset('upload/' . $item->image) }}" alt="Card image 2"
                                                 class="card-img-top">
@@ -51,10 +57,10 @@
                                             @if ($item->stock > 0)
                                                 <a href="{{ route('single.product', $item->id) }}"
                                                     class="btn btn-block btn-primary">
-                                                    Display Details
+                                                    Selengkapnya
                                                 </a>
                                             @else
-                                                <button class="btn btn-block btn-secondary" disabled>
+                                                <button class="btn btn-block btn-dark" disabled>
                                                     Habis
                                                 </button>
                                             @endif

@@ -17,9 +17,15 @@
                             <li class="nav-item">
                                 <a href="{{ route('products.shop') }}" class="nav-link">Home</a>
                             </li>
+
                             @auth
                                 <li class="nav-item">
-                                    <a href="{{ route('products.cart') }}" class="nav-link">Keranjang</a>
+                                    @php
+                                        $cartCount = App\Models\Cart::count();
+                                    @endphp
+                                    <a href="{{ route('products.cart') }}" class="nav-link">Keranjang<span
+                                            class="badge badge-danger"
+                                            style="position: relative; top: -5px; right: -5px;">{{ $cartCount }}</span></a>
                                 </li>
                             @endauth
                             @guest

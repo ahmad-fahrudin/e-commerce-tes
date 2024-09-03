@@ -10,7 +10,7 @@
                         Login Page
                     </h1>
                     <p class="lead">
-                        Save time and leave the groceries to us.
+                        Belanja Aman dan Nyaman
                     </p>
 
                     <div class="card card-login mb-5">
@@ -46,9 +46,9 @@
                                 <div class="form-group row">
                                     <div class="col-md-12 d-flex justify-content-between align-items-center">
                                         <!-- <div class="checkbox">
-                                                <input id="checkbox0" type="checkbox" name="remember">
-                                                <label for="checkbox0" class="mb-0"> Remember Me? </label>
-                                            </div> -->
+                                                    <input id="checkbox0" type="checkbox" name="remember">
+                                                    <label for="checkbox0" class="mb-0"> Remember Me? </label>
+                                                </div> -->
                                         <!-- <a href="login.html" class="text-light"><i class="fa fa-bell"></i> Forgot password?</a> -->
                                     </div>
                                 </div>
