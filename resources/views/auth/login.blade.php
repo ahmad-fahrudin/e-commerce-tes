@@ -1,4 +1,5 @@
 @extends('layouts.app')
+@section('title', 'Login')
 
 @section('content')
     <div id="page-content" class="page-content" style="margin-top: -25px">
@@ -46,9 +47,9 @@
                                 <div class="form-group row">
                                     <div class="col-md-12 d-flex justify-content-between align-items-center">
                                         <!-- <div class="checkbox">
-                                                    <input id="checkbox0" type="checkbox" name="remember">
-                                                    <label for="checkbox0" class="mb-0"> Remember Me? </label>
-                                                </div> -->
+                                                        <input id="checkbox0" type="checkbox" name="remember">
+                                                        <label for="checkbox0" class="mb-0"> Remember Me? </label>
+                                                    </div> -->
                                         <!-- <a href="login.html" class="text-light"><i class="fa fa-bell"></i> Forgot password?</a> -->
                                     </div>
                                 </div>

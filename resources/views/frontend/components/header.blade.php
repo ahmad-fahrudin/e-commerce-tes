@@ -50,8 +50,7 @@
 
                                     </a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <a class="dropdown-item" href="{{ route('users.orders') }}">Transactions
-                                            History</a>
+                                        <a class="dropdown-item" href="{{ route('users.orders') }}">Riwayat Transaksi</a>
                                         <a class="dropdown-item" href="{{ route('users.settings') }}">Settings</a>
                                         <a class="dropdown-item" href="{{ route('logout') }}"
                                             onclick="event.preventDefault();

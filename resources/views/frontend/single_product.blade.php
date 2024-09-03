@@ -1,4 +1,5 @@
 @extends('layouts.app')
+@section('title', 'Product Detail')
 
 @section('content')
     <div id="page-content" class="page-content">
@@ -79,7 +80,7 @@
                                     </button>
                                 @endif
                             @else
-                                <p class="alert alert-success mt-5">login to add the product to cart</p>
+                                <p class="alert alert-success mt-5">Login terlebih Dahulu untuk memasukkan ke keranjang</p>
                             @endif
                         </form>
                     </div>

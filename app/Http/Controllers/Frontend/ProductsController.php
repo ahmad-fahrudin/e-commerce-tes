@@ -16,7 +16,7 @@ class ProductsController extends Controller
 
     public function shop()
     {
-        $product = Product::paginate(8);
+        $product = Product::paginate(12);
         return view('frontend.shop', compact('product'));
     }
 

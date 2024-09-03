@@ -1,4 +1,5 @@
 @extends('layouts.app')
+@section('title', 'Settings')
 
 @section('content')
     <div id="page-content" class="page-content">
@@ -10,7 +11,7 @@
                         Settings
                     </h1>
                     <p class="lead">
-                        Update Your Account Info
+                        Perbaharui Informasi Kamu
                     </p>
                 </div>
             </div>

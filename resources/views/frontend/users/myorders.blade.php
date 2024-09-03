@@ -1,4 +1,5 @@
 @extends('layouts.app')
+@section('title', 'Riwayat Transaksi')
 
 @section('content')
     <div id="page-content" class="page-content">
@@ -7,7 +8,7 @@
                 style="margin-top: -25px; background-image: url('{{ asset('assets/img/bg-header.jpg') }}');">
                 <div class="container">
                     <h1 class="pt-5">
-                        Your Transactions
+                        Transaksi Anda
                     </h1>
                     <p class="lead">
                         Belanja Aman dan Nyaman.
@@ -35,7 +36,7 @@
                                     @if ($orders->count() > 0)
                                         @foreach ($orders as $item)
                                             <tr>
-                                                <td>{{ $item->iteration }}</td>
+                                                <td>{{ $loop->iteration }}</td>
                                                 <td>
                                                     {{ $item->name }}
                                                 </td>

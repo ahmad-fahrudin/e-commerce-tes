@@ -1,4 +1,5 @@
 @extends('layouts.app')
+@section('title', 'Selamat Berbelanja')
 
 @section('content')
     <div id="page-content" class="page-content">
@@ -7,7 +8,7 @@
                 style="margin-top: -25px; background-image: url('{{ asset('assets/img/bg-header.jpg') }}');">
                 <div class="container">
                     <h1 class="pt-5">
-                        Selamat Berbelanja
+                        Selamat datang di Freshcery
                     </h1>
                     <p class="lead">
                         Hemat waktu dan serahkan belanjaan kepada kami.
@@ -20,7 +21,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <h2 class="title">Paling Dicari</h2>
+                        <h2 class="title">Selamat Berbelanja</h2>
                         <div class="row">
                             @foreach ($product as $item)
                                 <div class="col-md-3">

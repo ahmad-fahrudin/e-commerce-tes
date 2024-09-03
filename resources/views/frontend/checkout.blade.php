@@ -1,4 +1,5 @@
 @extends('layouts.app')
+@section('title', 'Checkout')
 
 @section('content')
     <div id="page-content" class="page-content">

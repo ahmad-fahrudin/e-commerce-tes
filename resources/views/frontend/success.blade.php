@@ -1,4 +1,5 @@
 @extends('layouts.app')
+@section('title', 'Pembayaran Berhasil')
 
 @section('content')
     <div id="page-content" class="page-content">
