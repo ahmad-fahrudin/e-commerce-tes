@@ -34,7 +34,6 @@ class LoginController extends Controller
      */
     public function __construct()
     {
-        toast('Berhasil Login', 'success')->timerProgressBar();
         $this->middleware('guest')->except('logout');
         $this->middleware('auth')->only('logout');
     }

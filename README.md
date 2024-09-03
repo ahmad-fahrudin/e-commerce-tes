@@ -6,7 +6,7 @@
 -   TERINTEGRASI DENGAN PAYMENT GATEWAY MIDTRANS
 -   ORDER LEBIH DARI SATU PRODUK
 -   KERANJANG BELANJA
--   Dan lain-lain
+-   Dan lain-lain.
 
 ## Akun Default
 
