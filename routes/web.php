@@ -42,8 +42,9 @@ Route::group(['prefix' => 'admin', 'middleware' => 'auth:admin'], function () {
     // //orders
     Route::controller(OrderController::class)->group(function () {
         Route::get('/all-orders', 'allOrders')->name('orders.all');
-        Route::get('/edit-orders/{id}', 'editOrders')->name('orders.edit');
-        Route::post('/update-orders/{id}', 'updateOrders')->name('orders.update');
+        // Route::get('/edit-orders/{id}', 'editOrders')->name('orders.edit');
+        // Route::post('/update-orders/{id}', 'updateOrders')->name('orders.update');
+        Route::get('/delete-orders/{id}', 'deleteOrders')->name('orders.delete');
     });
 });
 

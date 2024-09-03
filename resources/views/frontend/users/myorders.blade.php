@@ -1,8 +1,6 @@
 @extends('layouts.app')
 
 @section('content')
-
-
     <div id="page-content" class="page-content">
         <div class="banner">
             <div class="jumbotron jumbotron-bg text-center rounded-0"
@@ -12,7 +10,7 @@
                         Your Transactions
                     </h1>
                     <p class="lead">
-                        Save time and leave the groceries to us.
+                        Belanja Aman dan Nyaman.
                     </p>
                 </div>
             </div>
@@ -37,7 +35,7 @@
                                     @if ($orders->count() > 0)
                                         @foreach ($orders as $item)
                                             <tr>
-                                                <td>{{ $item->id }}</td>
+                                                <td>{{ $item->iteration }}</td>
                                                 <td>
                                                     {{ $item->name }}
                                                 </td>
@@ -59,7 +57,7 @@
                                             </tr>
                                         @endforeach
                                     @else
-                                        <p class="alert alert-success">you have no orders for now</p>
+                                        <p class="alert alert-success">kamu belum ada order untuk sekarang</p>
                                     @endif
 
                                 </tbody>

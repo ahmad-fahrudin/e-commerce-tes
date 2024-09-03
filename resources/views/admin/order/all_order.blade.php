@@ -19,6 +19,7 @@
                                 <th>Tanggal</th>
                                 <th>Price</th>
                                 <th>Status</th>
+                                <th>Action</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -35,6 +36,11 @@
                                         @else
                                             <button class="btn btn-secondary">{{ $item->status }}</button>
                                         @endif
+                                    </td>
+                                    <td><a href="{{ route('orders.delete', $item->id) }}"
+                                            onclick="return confirm('Anda yakin Menghapus data?')"
+                                            class="btn
+                                            btn-danger text-center">delete</a>
                                     </td>
                                 </tr>
                             @endforeach
