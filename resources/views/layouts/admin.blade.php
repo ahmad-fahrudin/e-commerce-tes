@@ -30,7 +30,6 @@
             @include('admin.components.footer')
         </div>
     </div>
-    {{ asset('') }}
     <script src="{{ asset('assets/static/js/components/dark.js') }}"></script>
     <script src="{{ asset('assets/extensions/perfect-scrollbar/perfect-scrollbar.min.js') }}"></script>
 

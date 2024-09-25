@@ -28,10 +28,10 @@
                 <div class="row">
                     <div class="col-sm-6">
                         <div class="slider-zoom">
-                            <a href="{{ asset('assets/img/' . $product->image . '') }}" class="cloud-zoom"
+                            <a href="{{ asset('upload/' . $product->image . '') }}" class="cloud-zoom"
                                 rel="transparentImage: 'data:image/gif;base64,R0lGODlhAQABAID/AMDAwAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==', useWrapper: false, showTitle: false, zoomWidth:'500', zoomHeight:'500', adjustY:0, adjustX:10"
                                 id="cloudZoom">
-                                <img alt="Detail Zoom thumbs image" src="{{ asset('assets/img/' . $product->image . '') }}"
+                                <img alt="Detail Zoom thumbs image" src="{{ asset('upload/' . $product->image . '') }}"
                                     style="width: 100%;">
                             </a>
                         </div>
